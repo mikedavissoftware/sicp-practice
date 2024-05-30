@@ -14,6 +14,11 @@ class Solution {
       if (this.num / count === count) {
         return count
       }
+
+      if (this.num / count < count) {
+        return "This is not a square number"
+      }
+
       count++
     }
   }

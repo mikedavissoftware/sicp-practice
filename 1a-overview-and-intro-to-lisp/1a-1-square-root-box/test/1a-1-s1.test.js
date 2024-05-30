@@ -20,5 +20,10 @@ test("1a-1-s1 Test Case 4", () => {
   expect(s.squareRootFinder()).toStrictEqual(100)
 })
 
+test("1a-1-s1 Test Case 5", () => {
+  const s = new Solution(8)
+  expect(s.squareRootFinder()).toStrictEqual("This is not a square number")
+})
+
 // 0.167s on desktop
 // 0.000s on laptop
